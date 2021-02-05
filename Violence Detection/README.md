@@ -7,7 +7,7 @@ GROUP N009: [Pham Duc Duy](duypd.13@grad.uit.edu.vn ) - [Dong Dang Khoa](khoadd.
 ## Violence Detection [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com)
 Là mục tiêu đề tài mà nhóm đã thảo luận và đưa ra ý kiến thống nhất
 
-Để thực hiện và hoàn thành project, nhóm N009 đã lựa chọn phương pháp nhận diện hành động bạo lực bằng sự kết hợp giữa Convolution Neural Networks và Long Short Term Memory.
+Để thực hiện và hoàn thành project, nhóm N009 đã lựa chọn phương pháp nhận diện hành động bạo lực bằng việc kết hợp giữa Convolution Neural Networks và Long Short Term Memory.
 
 - [Violence_detection.ipynb](https://github.com/nhavd/CS2225.CH1501/blob/master/Violence%20Detection/Violence_detection.ipynb): Cài đặt mô hình
 - [ViolenceDetection_RootDataset.h5](https://drive.google.com/drive/folders/1af1PtjjSYbQG8keQ--QoTEAWpzerzFt_?usp=sharing): Model file
@@ -57,27 +57,16 @@ Là mục tiêu đề tài mà nhóm đã thảo luận và đưa ra ý kiến t
 
 ## Mô tả bài toán
 
-dscdsc
-dsc
-ds
-c
-sd
-
 ### Giới thiệu
 
-dscdsc
-dsc
-ds
-c
-sd
+Ngày nay, bạo lực xảy ra khắp nơi với rất nhiều lý do xã hội. Ứng dụng công nghệ góp phần hạn chế bạo lực xảy ra bằng việc sử dụng các camera an ninh, giám sát 24/7 tại các địa điểm nóng. Cùng với đó, 1 lượng lớn videos được tạo ra mỗi giây, đòi hỏi các giám sát viên liên lục theo dõi trên màn hình, như vậy không hiệu quả. Để giải quyết 1 trong các bài toán tương tự, Deep learning ra đời, nó có thể tự động phát hiện các bất thường một cách nhanh chóng. Ta có thể ứng dụng để trích xuất các đoạn video bất thường (ở đề tài này là các đoạn video có chứa hành vi bạo lực), đưa qua các thuật toán để đánh giá chính xác hơn, kết quả nhận được là cảnh báo video có chứa hành động bạo lực hay không.
+
+Cụ thể trong đồ án này, ta có input là một đoạn video, khi đi qua bộ nhận dạng ta sẽ nhận được kết quả đánh giá về video, có hay không bạo lực.
+
 
 ### Phân loại bài toán
 
-dscdsc
-dsc
-ds
-c
-sd
+Bài toán này, ta phải nhận hạng được hành động bạo lực, thông qua kỹ thuật trích xuất đặc trưng và phát hiện hành động bạo lực đó. Có thể nói, đây thuộc loại bài toán về Object detection. Bằng mô hình đã training, chúng ta có thể phân loại đâu là video có chứa hành động bạo lực, đâu là video bình thường và vị trí của chúng trong video.
 
 ## Phương pháp giải quyết bài toán
 
@@ -148,7 +137,7 @@ pip install mxnet-cu101 # which should match your installed cuda version
 
 
 
-## Datasets của đồ án tham khảo tại:
+## Datasets:
 
 * [Hockey Fight Dataset](https://academictorrents.com/details/38d9ed996a5a75a039b84cf8a137be794e7cee89)
 
