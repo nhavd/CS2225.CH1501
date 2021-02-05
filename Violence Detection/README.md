@@ -37,10 +37,32 @@ Là mục tiêu đề tài mà nhóm đã thảo luận và đưa ra ý kiến t
 **`06-02-2021`**: Hoàn tất bài báo cáo, chuẩn bị submit
 
 ## Nội dung trình bày
-[Deep Face Recognition](#kết-quả-nhận-diện-mong-muốn-từ-giải-pháp)
-- [Introduction](#introduction)
-- [Training Data](#training-data)
-- [Train](#train)
+[Mô tả bài toán](#)
+- [Giới thiệu](# )
+- [Phân loại bài toán](#)
+[Phương pháp giải quyết bài toán](#)
+[Vấn đề về dữ liệu](#train)
+[Thực thi](#train)
+[Kết quả](#train)
+[Đánh giá](#train)
+
+## Mô tả bài toán
+
+### Giới thiệu
+
+### Phân loại bài toán
+
+## Phương pháp giải quyết bài toán
+
+
+## Vấn đề về dữ liệu
+
+## Thực thi
+
+## Kết quả
+
+## Đánh giá
+
 Đồ án kết hợp giữa convloutional neural networks (Transfer learning) và long short term memory để  phân loại video thành hai loại chính 
 * 0: No Violence 
 * 1: Violence
@@ -49,6 +71,24 @@ sử dụng CNN-LSTM
 Kiến trúc cụ thể
 
 ![](images/model.png)
+
+
+
+
+
+
+```
+pip install mxnet-cu101 # which should match your installed cuda version
+```
+
+
+*LResNet100E-IR* network trained on *MS1M-Arcface* dataset with ArcFace loss:
+
+| Method  | LFW(%) | CFP-FP(%) | AgeDB-30(%) |  
+| ------- | ------ | --------- | ----------- |  
+|  Ours   | 99.80+ | 98.0+     | 98.20+      |   
+
+
 
 
 ## Datasets của đồ án tham khảo tại:
