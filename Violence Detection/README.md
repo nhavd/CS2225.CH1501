@@ -10,6 +10,7 @@ Là mục tiêu đề tài mà nhóm đã thảo luận và đưa ra ý kiến t
 Để thực hiện và hoàn thành project, nhóm N009 đã lựa chọn phương pháp nhận diện hành động bạo lực bằng sự kết hợp giữa Convolution Neural Networks và Long Short Term Memory.
 
 - [Violence_detection.ipynb](https://github.com/nhavd/CS2225.CH1501/blob/master/Violence%20Detection/Violence_detection.ipynb): Cài đặt mô hình
+- [ViolenceDetection_RootDataset.h5](https://drive.google.com/drive/folders/1af1PtjjSYbQG8keQ--QoTEAWpzerzFt_?usp=sharing): Model file
 - [Predictor.ipynb](https://github.com/nhavd/CS2225.CH1501/blob/master/Violence%20Detection/Predictor.ipynb): Kiểm thử mô hình trên tập dữ liệu mới 
 
 ## Kết quả nhận diện mong muốn từ giải pháp
@@ -36,20 +37,23 @@ Là mục tiêu đề tài mà nhóm đã thảo luận và đưa ra ý kiến t
 **`06-02-2021`**: Hoàn tất bài báo cáo, chuẩn bị submit
 
 ## Nội dung trình bày
-[Mô tả bài toán](#mô-tả-bài-toán)
-- [Giới thiệu](#giới-thiệu)
-- [Phân loại bài toán](#phân-loại-bài-toán)
+*********************************************************************************************
+*[Mô tả bài toán](#mô-tả-bài-toán)*
 
-[Phương pháp giải quyết bài toán](#phương-pháp-giải-quyết-bài-toán)
+*- [Giới thiệu](#giới-thiệu)*
 
-[Vấn đề về dữ liệu](#vấn-đề-về-dữ-liệu)
+*- [Phân loại bài toán](#phân-loại-bài-toán)*
 
-[Thực thi](#thực-thi)
+*[Phương pháp giải quyết bài toán](#phương-pháp-giải-quyết-bài-toán)*
 
-[Kết quả](#kết-quả)
+*[Vấn đề về dữ liệu](#vấn-đề-về-dữ-liệu)*
 
-[Đánh giá](#đánh-giá)
+*[Thực thi](#thực-thi)*
 
+*[Kết quả](#kết-quả)*
+
+*[Đánh giá](#đánh-giá)*
+*********************************************************************************************
 
 ## Mô tả bài toán
 
