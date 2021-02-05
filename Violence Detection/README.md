@@ -37,7 +37,7 @@ Là mục tiêu đề tài mà nhóm đã thảo luận và đưa ra ý kiến t
 **`06-02-2021`**: Hoàn tất bài báo cáo, chuẩn bị submit
 
 ## Nội dung trình bày
-[Deep Face Recognition](#deep-face-recognition)
+[Deep Face Recognition](#kết-quả-nhận-diện-mong-muốn-từ-giải-pháp)
 - [Introduction](#introduction)
 - [Training Data](#training-data)
 - [Train](#train)
