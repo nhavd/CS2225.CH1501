@@ -71,10 +71,8 @@ Bài toán này, ta phải nhận hạng được hành động bạo lực, th�
 ## Phương pháp giải quyết bài toán
 
 dscdsc
-dsc
-ds
-c
-sd
+Sử dụng mô hình Deep Learning – Convolutional Neural Network (CNN) kết hợp phương pháp Long Short Term Memory (LSTM). Một mạng CNN đưa các input video (frame) và các output đặc trưng vào LSTM để học các đặc trưng global temporal, sau đó phân loại các đặc trưng bằng các mạng kết nối đầy đủ (fully connected layer). Network này không chỉ implement được bởi các pre-trained mode trong ImageNet database, mà nó rất linh hoạt để thực hiện trên các video có thời lượng bất định, và độ chính xác có thể lên đến 98,5% mặc dù xử lý hình ảnh theo thời gian thực.
+
 
 
 ## Vấn đề về dữ liệu
@@ -103,9 +101,11 @@ sd
 
 ## Đánh giá
 
-dscdsc
-dsc
-ds
+The proposed approach outperforms the state-of-the-art methods, while still processing the videos in real-time. The proposed model has the following advantages:
+
+The ability to use the pre-trained model on ImageNet dataset.
+The ability to learn the local motion features by examined the concatenated two frames using CNN.
+The ability to learn the global temporal features by LSTM cell.
 c
 sd
 
