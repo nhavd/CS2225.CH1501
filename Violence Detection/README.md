@@ -6,9 +6,9 @@ GROUP N009: [Pham Duc Duy](duypd.13@grad.uit.edu.vn ) - [Dong Dang Khoa](khoadd.
 
 
 ## Violence Detection [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com)
-Thư mục này chứa báo cáo đồ án cuối kỳ của môn học NHẬN DẠNG THỊ GIÁC VÀ ỨNG DỤNG. 
+Là mục tiêu đề tài mà nhóm đã thảo luận và đưa ra ý kiến thống nhất
 
-Để thực hiện và hoàn thành project, nhóm N009 đã llựa chọn phương pháp nhận diện hành động bạo lực bằng sự kết hợp giữa Convolution Neural Networks và Long Short Term Memory.
+Để thực hiện và hoàn thành project, nhóm N009 đã lựa chọn phương pháp nhận diện hành động bạo lực bằng sự kết hợp giữa Convolution Neural Networks và Long Short Term Memory.
 
 - [Violence_detection.ipynb](https://github.com/nhavd/CS2225.CH1501/blob/master/Violence%20Detection/Violence_detection.ipynb): Cài đặt mô hình
 - [Predictor.ipynb](https://github.com/nhavd/CS2225.CH1501/blob/master/Violence%20Detection/Predictor.ipynb): Kiểm thử mô hình trên tập dữ liệu mới 
@@ -16,7 +16,31 @@ Thư mục này chứa báo cáo đồ án cuối kỳ của môn học NHẬN D
 ## Kết quả nhận diện mong muốn từ giải pháp
 ![](images/result1.png)
 
+## Project timeline
 
+**`07-09-2020`**: Thảo luận ý tưởng, tìm kiếm các đề tài mong muốn liên quan đến môn học.
+
+**`15-09-2020`**: Thống nhất ý tưởng, viết mô tả đề tài
+
+**`10-10-2020`**: Thảo luận nhóm về đề tài, tìm kiếm, tổng hợp các tài liệu tham khảo
+
+**`30-11-2020`**: Nhóm học tập hoàn thành việc tìm hiểu các kiến thức cơ bản liên quan đề tài, chạy thử nghiệm 1 số demo
+
+**`13-12-2020`**: Họp nhóm, xây dựng các phiên bản mã nguồn 
+
+**`27-12-2020`**: Merge mã nguồn
+
+**`10-01-2021`**: Họp nhóm, Viết báo cáo, chuẩn bị các resource cần thiết 
+
+**`31-01-2021`**: Họp nhóm, thống nhất chỉnh sửa mã nguồn, báo cáo. 
+
+**`06-02-2021`**: Hoàn tất bài báo cáo, chuẩn bị submit
+
+## Nội dung trình bày
+[Deep Face Recognition](#deep-face-recognition)
+- [Introduction](#introduction)
+- [Training Data](#training-data)
+- [Train](#train)
 Đồ án kết hợp giữa convloutional neural networks (Transfer learning) và long short term memory để  phân loại video thành hai loại chính 
 * 0: No Violence 
 * 1: Violence
