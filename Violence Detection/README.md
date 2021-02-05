@@ -37,31 +37,85 @@ Là mục tiêu đề tài mà nhóm đã thảo luận và đưa ra ý kiến t
 **`06-02-2021`**: Hoàn tất bài báo cáo, chuẩn bị submit
 
 ## Nội dung trình bày
-[Mô tả bài toán](#)
-- [Giới thiệu](# )
-- [Phân loại bài toán](#)
-[Phương pháp giải quyết bài toán](#)
-[Vấn đề về dữ liệu](#train)
-[Thực thi](#train)
-[Kết quả](#train)
-[Đánh giá](#train)
+[Mô tả bài toán](#mô-tả-bài-toán)
+- [Giới thiệu](#giới-thiệu)
+- [Phân loại bài toán](#phân-loại-bài-toán)
+
+[Phương pháp giải quyết bài toán](#phương-pháp-giải-quyết-bài-toán)
+
+[Vấn đề về dữ liệu](#vấn-đề-về-dữ-liệu)
+
+[Thực thi](#thực-thi)
+
+[Kết quả](#kết-quả)
+
+[Đánh giá](#đánh-giá)
+
 
 ## Mô tả bài toán
 
+dscdsc
+dsc
+ds
+c
+sd
+
 ### Giới thiệu
+
+dscdsc
+dsc
+ds
+c
+sd
 
 ### Phân loại bài toán
 
+dscdsc
+dsc
+ds
+c
+sd
+
 ## Phương pháp giải quyết bài toán
+
+dscdsc
+dsc
+ds
+c
+sd
 
 
 ## Vấn đề về dữ liệu
 
+dscdsc
+dsc
+ds
+c
+sd
+
 ## Thực thi
+
+dscdsc
+dsc
+ds
+c
+sd
 
 ## Kết quả
 
+dscdsc
+dsc
+ds
+c
+sd
+
 ## Đánh giá
+
+dscdsc
+dsc
+ds
+c
+sd
 
 Đồ án kết hợp giữa convloutional neural networks (Transfer learning) và long short term memory để  phân loại video thành hai loại chính 
 * 0: No Violence 
