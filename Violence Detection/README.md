@@ -38,21 +38,23 @@ Là mục tiêu đề tài mà nhóm đã thảo luận và đưa ra ý kiến t
 
 ## Nội dung trình bày
 *********************************************************************************************
-*[Mô tả bài toán](#mô-tả-bài-toán)*
+*[1. Mô tả bài toán](#mô-tả-bài-toán)*
 
 *- [Giới thiệu](#giới-thiệu)*
 
 *- [Phân loại bài toán](#phân-loại-bài-toán)*
 
-*[Phương pháp giải quyết bài toán](#phương-pháp-giải-quyết-bài-toán)*
+*[2. Phương pháp giải quyết bài toán](#phương-pháp-giải-quyết-bài-toán)*
 
-*[Vấn đề về dữ liệu](#vấn-đề-về-dữ-liệu)*
+*[3. Vấn đề về dữ liệu](#vấn-đề-về-dữ-liệu)*
 
-*[Thực thi](#thực-thi)*
+*[4. Thực thi](#thực-thi)*
 
-*[Kết quả](#kết-quả)*
+*[5. Kết quả](#kết-quả)*
 
-*[Đánh giá](#đánh-giá)*
+*[6. Đánh giá](#đánh-giá)*
+
+*[7. Datasets](#datasets)*
 *********************************************************************************************
 
 ## Mô tả bài toán
