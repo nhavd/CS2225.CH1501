@@ -86,24 +86,38 @@ Bài toán này, ta phải nhận hạng được hành động bạo lực, th�
 
 ## Phương pháp giải quyết bài toán
 
-dscdsc
 Sử dụng mô hình Deep Learning – Convolutional Neural Network (CNN) kết hợp phương pháp Long Short Term Memory (LSTM). Một mạng CNN đưa các input video (frame) và các output đặc trưng vào LSTM để học các đặc trưng global temporal, sau đó phân loại các đặc trưng bằng các mạng kết nối đầy đủ (fully connected layer). Network này không chỉ implement được bởi các pre-trained mode trong ImageNet database, mà nó rất linh hoạt để thực hiện trên các video có thời lượng bất định, và độ chính xác có thể lên đến 98,5% mặc dù xử lý hình ảnh theo thời gian thực.
 
+Đồ án kết hợp giữa convloutional neural networks (Transfer learning) và long short term memory để  phân loại video thành hai loại chính 
+* 0: No Violence 
+* 1: Violence
 
+![](images/model.png)
 
 ## Vấn đề về dữ liệu
 
-dscdsc
-dsc
-ds
-c
-sd
+<b>Tổng số mẫu</b>: 1201 videos + 30 videos
+* Training: 951 videos (475 violence, 476 non violence)
+* Testing: 250 videos (125 violence, 125 non violence)
+* Validation: 30 other sources videos (10 violence, 20 non violence)
+
+<b>Cách thu thập</b>
+* Nguồn dữ liệu có sẵn [7. Datasets](#datasets)
+* Số loại nhãn: 2 (none_violence và violence)
+
+Dữ liệu chưa đủ lớn để tăng mức độ đánh giá độ chính xác của thuật toán. Sẽ tìm kiếm và test thêm với bộ dữ liệu video có tính chất phức tạp (về khả năng có bạo lực hay không)
 
 ## Thực thi
 
 dscdsc
-dsc
-ds
+
+
+
+
+```
+pip install mxnet-cu101 # which should match your installed cuda version
+```
+
 c
 sd
 
@@ -122,27 +136,8 @@ The proposed approach outperforms the state-of-the-art methods, while still proc
 The ability to use the pre-trained model on ImageNet dataset.
 The ability to learn the local motion features by examined the concatenated two frames using CNN.
 The ability to learn the global temporal features by LSTM cell.
-c
-sd
 
-Đồ án kết hợp giữa convloutional neural networks (Transfer learning) và long short term memory để  phân loại video thành hai loại chính 
-* 0: No Violence 
-* 1: Violence
-sử dụng CNN-LSTM
-
-Kiến trúc cụ thể
-
-![](images/model.png)
-
-
-
-
-
-
-```
-pip install mxnet-cu101 # which should match your installed cuda version
-```
-
+ 
 
 *LResNet100E-IR* network trained on *MS1M-Arcface* dataset with ArcFace loss:
 
