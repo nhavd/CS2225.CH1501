@@ -65,6 +65,17 @@ Ngày nay, bạo lực xảy ra khắp nơi với rất nhiều lý do xã hội
 
 Cụ thể trong đồ án này, ta có input là một đoạn video, khi đi qua bộ nhận dạng ta sẽ nhận được kết quả đánh giá về video, có hay không bạo lực.
 
+- <b>Input</b>: Đoạn video
+
+- <b>Output</b>:Nhãn thông báo video có chứa hành động bạo lực hay không
+
+- <b>Hướng tiếp cận</b>: Phương pháp giải bài toán chỉ giới hạn ở việc nhận diện hành động bạo lực. Trong đó khi ảnh/video được upload lên thì các khung hình sẽ được trích xuất, đồng thời thuật toán trong mô hình huấn luyện sẽ quét qua tất cả các hình này và nhận diện xem có hành động bạo lực hay không?
+
+- <b>Giới hạn</b>: Số lượng đối tượng trong 1 khung ảnh < 10, ít chồng lấn. Tập dữ liệu huấn luyện còn hạn chế về số lượng.
+
+- <b>Minh họa</b>
+![](images/minhhoa.png)
+
 
 ### Phân loại bài toán
 
