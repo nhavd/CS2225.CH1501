@@ -79,7 +79,10 @@ Cụ thể trong đồ án này, ta có input là một đoạn video, khi đi q
 
 ### Phân loại bài toán
 
-Bài toán này, ta phải nhận hạng được hành động bạo lực, thông qua kỹ thuật trích xuất đặc trưng và phát hiện hành động bạo lực đó. Có thể nói, đây thuộc loại bài toán về Object detection. Bằng mô hình đã training, chúng ta có thể phân loại đâu là video có chứa hành động bạo lực, đâu là video bình thường và vị trí của chúng trong video.
+Bài toán này, ta phải nhận hạng được hành động bạo lực, thông qua kỹ thuật trích xuất đặc trưng và phát hiện hành động bạo lực đó. Có thể nói, đây thuộc loại bài toán về <b>Object detection</b>. Bằng mô hình đã training, chúng ta có thể phân loại đâu là video có chứa hành động bạo lực, đâu là video bình thường và vị trí của chúng trong video.
+<p align="center">
+  <img width="460" height="300" src="https://github.com/nhavd/CS2225.CH1501/blob/master/Violence%20Detection/images/objecdetection.png">
+</p>
 
 ## Phương pháp giải quyết bài toán
 
