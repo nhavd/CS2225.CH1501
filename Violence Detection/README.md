@@ -79,7 +79,7 @@ Cụ thể trong đồ án này, ta có input là một đoạn video, khi đi q
 
 ### Phân loại bài toán
 
-Bài toán này, ta phải nhận hạng được hành động bạo lực, thông qua kỹ thuật trích xuất đặc trưng và phát hiện hành động bạo lực đó. Có thể nói, đây thuộc loại bài toán về <b>Object detection</b>. Bằng mô hình đã training, chúng ta có thể phân loại đâu là video có chứa hành động bạo lực, đâu là video bình thường và vị trí của chúng trong video.
+Bài toán này, ta phải nhận hạng được hành động bạo lực, thông qua kỹ thuật trích xuất đặc trưng và phát hiện hành động bạo lực đó. Có thể nói, đây thuộc loại bài toán về <b>Object detection</b>. Bằng mô hình đã training, chúng ta có thể phân loại đâu là video có chứa hành động bạo lực, đâu là video không chứa hành động bạo lực. Dựa trên các video chứa hành động bạo lực có thể detect được vị trí của hành động bạo lực trong video.
 <p align="center">
   <img width="460" height="300" src="https://github.com/nhavd/CS2225.CH1501/blob/master/Violence%20Detection/images/objecdetection.png">
 </p>
@@ -93,6 +93,8 @@ Sử dụng mô hình Deep Learning – Convolutional Neural Network (CNN) kết
 * 1: Violence
 
 ![](images/model.png)
+
+<i>Mô hình CNN-LSTM với ý tưởng mô hình là trích xuất tập hợp các frames của video, đưa vào mảng đã pre-train là VGG. Đầu ra của lớp này sẽ là input của lớp tiếp theo, được đào tạo bởi kiến trúc mạng khác với mạng Neuron Network là LSTM. Trong quá trình phân tích, nếu có frame chứa hành động bạo lực, mô hình sẽ cho ra output như mong muốn.</i>
 
 ## Vấn đề về dữ liệu
 
