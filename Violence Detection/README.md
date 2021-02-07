@@ -111,25 +111,102 @@ Dữ liệu chưa đủ lớn để tăng mức độ đánh giá độ chính x
 
 ## Thực thi
 
-dscdsc
+Liên kết bộ dữ liệu Google Drive 
 
-
-
-
+```python
+from google.colab import drive
+drive.mount('/content/drive/')
 ```
-pip install mxnet-cu101 # which should match your installed cuda version
+Import một số thư viện chính (CNN, LSTM)
+
+```python
+import tensorflow
+from tensorflow.keras.utils import to_categorical
+from tensorflow.keras.applications import VGG19,ResNet50
+from tensorflow.keras.layers import LSTM , Dense , TimeDistributed, Flatten, Dropout, GlobalAveragePooling2D, GlobalAveragePooling1D, Input
+from tensorflow.keras.layers import Reshape, BatchNormalization ,ConvLSTM2D
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.optimizers import Adam , RMSprop, SGD
+```
+Sử dụng cấu trúc dữ liệu của Pandas là DataFrame, gán nhãn cho video
+
+```python
+dtframe = pd.DataFrame()
+...
+dtframe['video_name'] = vid
+dtframe['tag'] = lab
+dtframe.head
 ```
 
-c
-sd
+Phân chia video cho các Dataset tương ứng 
+
+```python
+traindf = dtframe[:100]
+...
+valdf = dtframe[101:151]
+...
+```
+
+Các method Xử lý hậu kỳ
+
+```python
+def autocrop(image, threshold=0):
+...
+def scale_and_resize(image):
+...
+```
+Trích xuất Frame từ video
+
+```python
+def extract_frames(videodf, start_index = 0, end_index =-1)
+...
+```
+Áp dụng mô hình
+
+```python
+def CNN_LSTM(model_arch, opt, retrain ,init_weights = 'imagenet'):
+```
+Truyền các parameter tương ứng và fit mô hình
+
+```python
+vgg_adam_retrain = CNN_LSTM('Vgg19', 'Adam', True)
+vgg_adam_retrain_history = vgg_adam_retrain.fit(fvideo,flabels, batch_size=10, epochs=20, validation_data=(tvideo , tlabels))
+```
+Xuất MAP ra màn hình
+
+```python
+plot_results(vgg_adam_static_history)
+```
+Save Model
+
+```python
+diff_vgg_rmsprop_retrain.save("./drive/MyDrive/Colab Notebooks/model/ViolenceDetection_RootDataset.h5")
+```
 
 ## Kết quả
 
-dscdsc
-dsc
-ds
-c
-sd
+Load Model để sử dụng với bộ Testing
+
+```python
+ViolenceDetection = load_model('ViolenceDetection_RootDataset.h5')
+```
+Xây dựng Method load video và xử lý với Mô hình đã train, phục vụ testing
+```python
+def Violence_detection(videoname):
+  vid, img = extract_frames(videoname)
+
+  violence_res = ViolenceDetection(vid)
+  if violence_res > 0.6:
+    print("Violence Detected")
+  else:
+    print("No Violence Detected")
+```
+Kết quả
+
+```python
+
+Violence_detection('fi001.mp4') #Violence Detected
+```
 
 ## Đánh giá
 
