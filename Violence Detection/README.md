@@ -207,25 +207,18 @@ Kết quả
 
 Violence_detection('fi001.mp4') #Violence Detected
 ```
+![](images/fi001mp4.png)
 
 ## Đánh giá
 
-The proposed approach outperforms the state-of-the-art methods, while still processing the videos in real-time. The proposed model has the following advantages:
+Sử dụng lần lượt các mạng CNN và optimization method với nhau. Kết quả thực thi được đánh giá thông qua các biểu đồ
 
-The ability to use the pre-trained model on ImageNet dataset.
-The ability to learn the local motion features by examined the concatenated two frames using CNN.
-The ability to learn the global temporal features by LSTM cell.
-
- 
-
-*LResNet100E-IR* network trained on *MS1M-Arcface* dataset with ArcFace loss:
-
-| Method  | LFW(%) | CFP-FP(%) | AgeDB-30(%) |  
-| ------- | ------ | --------- | ----------- |  
-|  Ours   | 99.80+ | 98.0+     | 98.20+      |   
-
-
-
+<p align="center">
+  <img width="460" height="700" src="https://github.com/nhavd/CS2225.CH1501/blob/master/Violence%20Detection/images/a.png">
+    <img width="460" height="700" src="https://github.com/nhavd/CS2225.CH1501/blob/master/Violence%20Detection/images/B.png">
+    <img width="460" height="700" src="https://github.com/nhavd/CS2225.CH1501/blob/master/Violence%20Detection/images/c.png">
+    <img width="460" height="700" src="https://github.com/nhavd/CS2225.CH1501/blob/master/Violence%20Detection/images/d.png">
+</p>
 
 ## Datasets:
 
