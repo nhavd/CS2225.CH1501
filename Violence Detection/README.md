@@ -220,6 +220,8 @@ Sử dụng lần lượt các mạng CNN và optimization method với nhau. K�
     <img width="460" height="700" src="https://github.com/nhavd/CS2225.CH1501/blob/master/Violence%20Detection/images/d.png">
 </p>
 
+Để cải thiện độ chính xác, cần training với bộ dữ liệu lớn, đặc thù trong lĩnh vực đang quan tâm như trường học, nhà xưởng,...
+
 ## Datasets:
 
 * [Hockey Fight Dataset](https://academictorrents.com/details/38d9ed996a5a75a039b84cf8a137be794e7cee89)
